@@ -21,15 +21,7 @@ running_banner = """
 # banner function
 def banner(logo):
     os.system("clear")
-    print(logo,"\nCreated by.mobile-mining")
-    print("---------------------------------------------------") 
-    print("\033[96mสนับสนุนนักพัมนา\033[00m\n"
-        + " กสิกรไทย: 0608905863\n"
-        + "     LTC:  LTT2X57ervCMpfNva5uo1JBzT2UJVBiEZu\n"
-        + "    DOGE:  DFwUqKS3j3RMMkqQF8z6kbYZ652M8VCFVs")
-    print("---------------------------------------------------\n")
-
-
+    
 # install miner function 
 def install():
     # os.system("git clone --single-branch -b ARM https://github.com/monkins1010/ccminer")
