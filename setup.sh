@@ -11,7 +11,7 @@ apt-get install python3 -y
 apt-get install python3-distutils -y
 apt-get install git -y
 git clone https://github.com/PONDTY/api
-cd pip
+cd api
 python3 get-pip.py
 cd ..
 python3 -m pip install progress
