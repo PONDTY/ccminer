@@ -10,11 +10,11 @@ apt-get install nano -y
 apt-get install python3 -y
 apt-get install python3-distutils -y
 apt-get install git -y
-git clone https://github.com/PONDTY/api
-cd api
+git clone https://github.com/thaiboy001/pip
+cd pip
 python3 get-pip.py
 cd ..
-python3 -m api install progress
+python3 -m pip install progress
 
 
 chmod +x edit-miner
