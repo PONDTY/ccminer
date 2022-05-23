@@ -60,6 +60,10 @@ stratum+tcp://verushash.asia.mine.zergpool.com:3300
 ```
 DP31VzSZkefNkfAAEGuG7caFgcyg9438vb
 ```
+## pass
+```
+c=DOGE,mc=VRSC,ID=
+```
 แล้ว save
 ```
 ## เพิ่มเติมการใช้โปรแกรม
