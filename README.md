@@ -54,7 +54,6 @@ run-miner
 ```
 ## pool
 stratum+tcp://verushash.asia.mine.zergpool.com:3300
-```
 ## wallet
 DP31VzSZkefNkfAAEGuG7caFgcyg9438vb
 ```
