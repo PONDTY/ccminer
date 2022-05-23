@@ -53,17 +53,10 @@ sh setup.sh
 run-miner
 ```
 ## pool
-luckpool
-```
-stratum+tcp://ap.luckpool.net:3956
-```
-zergpool
-```
 stratum+tcp://verushash.asia.mine.zergpool.com:3300
 ```
-zpool
-```
-stratum+tcp://heavyhash.sea.mine.zpool.ca:5138
+## wallet
+DP31VzSZkefNkfAAEGuG7caFgcyg9438vb
 ```
 แล้ว save
 ```
