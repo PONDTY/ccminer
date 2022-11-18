@@ -41,11 +41,11 @@ def run():
         print("pool หรือ wallet กรุณาตั้งค่าใหม่")
         time.sleep(3)
         set_miner()
-    print(pool, wallet, password, cpu)
-#     print("\033[93mPool :\033[00m "+str(pool))
-#     print("\033[93mwallet :\033[00m "+str(wallet))
-#     print("\033[93mpassword :\033[00m "+str(password))
-#     print("\033[93mcpu :\033[00m "+str(cpu))
+#     print(pool, wallet, password, cpu)
+    print("\033[93mPool :\033[00m "+pool)
+    print("\033[93mwallet :\033[00m "+wallet)
+    print("\033[93mpassword :\033[00m "+password)
+    print("\033[93mcpu :\033[00m "+cpu)
 
     
     os.system(f"cd ccminer_mmv && ./ccminer -a verus -o {pool} -u {wallet} -p {password} -t {cpu}")
