@@ -29,7 +29,7 @@ def install():
 
 # run miner function
 def run():
-    banner(running_banner)
+    print(running_banner)
     with open("set-miner/miner.json", encoding="utf-8") as set:
         load = set.read()
         loads = json.loads(load)
@@ -42,9 +42,12 @@ def run():
         time.sleep(3)
         set_miner()
     # print(pool, wallet, password, cpu)
-    print("ccminer CPU3.7 for VerusHash v2.1 - 2.2 by Monkins1010 based on ccminer")
-    print("Originally based on Christian Buchner and Christian H. project")
-    print("\033[93mLocated at\033[00m: http://github.com/monkins1010/ccminer")
+    print("\033[93mPool :\033[00m "+str(pool))
+    print("\033[93mwallet :\033[00m "+str(wallet))
+    print("\033[93mpassword :\033[00m "+str(password))
+    print("\033[93mcpu :\033[00m "+str(cpu))
+
+    
     os.system(f"cd ccminer_mmv && ./ccminer -a verus -o {pool} -u {wallet} -p {password} -t {cpu}")
 
 def set_miner():
