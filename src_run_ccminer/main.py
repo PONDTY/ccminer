@@ -42,6 +42,7 @@ def run():
         time.sleep(3)
         set_miner()
 #     print(pool, wallet, password, cpu)
+    print("\033[91mBy : Pond")
     print("\033[93mPool :\033[00m "+pool)
     print("\033[93mwallet :\033[00m "+wallet)
     print("\033[93mpassword :\033[00m "+password)
